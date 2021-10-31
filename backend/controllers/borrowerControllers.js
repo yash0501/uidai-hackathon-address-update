@@ -133,12 +133,20 @@ const borrowerController = {
       street,
       vtc,
     } = req.body;
+    const address = new BorrowerNewAddress({
+      borrowerVID,
+      country,
+      dist,
+      house,
+      lm,
+      loc,
+      pc,
+      state,
+      street,
+      vtc,
+    });
     try {
-      const result = await Borrower.findOneAndUpdate(
-        { borrowerVID },
-        { address },
-        { new: true }
-      );
+      const result = await address.save();
       console.log(result);
       res.json({
         status: "success",

@@ -5,7 +5,8 @@
 ## Problem Statement: Address Update in Urban Areas
 
 Team : The Decoders
-Members:
+
+### Members:
 
 - Yash Garg
 - Vaibhav Shukla
@@ -20,4 +21,4 @@ Members:
 
 ## Postman Link for APIs
 
-https://go.postman.co/workspace/My-Workspace~00d146ed-589a-4545-81e9-2ba8434ed00f/collection/16352807-98647d64-91fb-4f9d-bd2b-8632647bb711
+https://www.getpostman.com/collections/2c38339b2a4138adedd6

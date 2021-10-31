@@ -9,6 +9,7 @@ router.post("/borrowerCreateOtp", borrowerController.borrowerCreateOtp);
 router.post("/borrowerVerifyOtp", borrowerController.borrowerVerifyOtp);
 router.post("/borrowerEkyc", borrowerController.borrowerEkyc);
 router.post("/borrowRequest", borrowerController.createBorrower);
+router.post("/editAddress", borrowerController.editAddress);
 
 router.post("/donorOtp", donorController.donorOtp);
 router.post("/donorOtpVerify", donorController.donorOtpVerify);
